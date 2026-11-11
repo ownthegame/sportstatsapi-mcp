@@ -2,8 +2,8 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "com.sportstatsapi/sports-data",
   "title": "SportStatsAPI",
-  "description": "Fixtures, live scores, results, tables and match facts for 1,881 competitions in 8 sports.",
-  "version": "1.36.0",
+  "description": "Fixtures, live scores, results, tables and match facts, from top leagues down to lower leagues.",
+  "version": "1.37.0",
   "websiteUrl": "https://sportstatsapi.com/ai-agents/",
   "remotes": [
     {
