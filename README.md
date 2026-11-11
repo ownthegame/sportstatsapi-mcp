@@ -10,8 +10,7 @@ The server is hosted; there is nothing to install.
 
 ## Access
 
-- **With an API key** (plans at https://sportstatsapi.com/pricing/): send `Authorization: Bearer <key>`. Every tool is open.
-- **Without a key:** `list_sports` and `find_leagues` are free. The other tools answer with a price and are paid per call with [x402](https://www.x402.org/) (USDC on Base, no sign-up).
+Sign in with your SportStatsAPI account (OAuth; clients such as Claude ask when you connect) or send an API key as `Authorization: Bearer <key>`. A free account works; plans at https://sportstatsapi.com/pricing/. `list_sports` and `find_leagues` work without an account.
 
 ## Tools
 
@@ -37,7 +36,7 @@ The server is hosted; there is nothing to install.
 | `get_bracket` | Cup knock-outs and tennis draws |
 | `get_races`, `get_race`, `get_race_briefing`, `find_horses`, `get_runner_form`, `get_racing_stats` | Horse racing: race cards, results, form and statistics |
 
-Golf, MMA, boxing, snooker and darts have their own tools too. The full, current list: https://mcp.sportstatsapi.com/.well-known/mcp.json
+The full, current list: https://mcp.sportstatsapi.com/.well-known/mcp.json
 
 Facts only, no predictions.
 
@@ -49,7 +48,7 @@ For clients that only run local (stdio) servers, this repository has a small ima
 
 ```sh
 docker build -t sportstatsapi-mcp .
-docker run -i --rm sportstatsapi-mcp                                   # free tools and pay per call
+docker run -i --rm sportstatsapi-mcp                                   # sign in when the client asks
 docker run -i --rm -e SPORTSTATSAPI_KEY=your_key sportstatsapi-mcp     # with an API key
 ```
 

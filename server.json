@@ -12,7 +12,7 @@
       "headers": [
         {
           "name": "Authorization",
-          "description": "Optional: Bearer <your SportStatsAPI key>. Without a key, list_sports and find_leagues are free and other tools are paid per call with x402 (USDC on Base).",
+          "description": "Optional: Bearer <your SportStatsAPI key>. Without a key, sign in with your SportStatsAPI account (OAuth) when the client asks.",
           "isRequired": false,
           "isSecret": true
         }
