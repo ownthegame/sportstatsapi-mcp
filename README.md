@@ -7,6 +7,7 @@ The server is hosted; there is nothing to install.
 - **URL (Streamable HTTP):** `https://mcp.sportstatsapi.com/mcp`
 - **Official MCP Registry:** `com.sportstatsapi/sports-data`
 - **Website:** https://sportstatsapi.com/ai-agents/
+- **Glama:** [![SportStatsAPI MCP connector](https://glama.ai/mcp/connectors/com.sportstatsapi/sports-data/badges/score.svg)](https://glama.ai/mcp/connectors/com.sportstatsapi/sports-data)
 
 ## Access
 
